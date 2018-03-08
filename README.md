@@ -7,16 +7,17 @@
 A repository to save information on how to do things, like packaging in launchpad.
 
 Why such project? Because I got bored from searching the web each time I want to create a package or do something.
-Most of the articles are boring, long and not reaching the point directly.
+Most of the articles are boring, long and not reaching to the point immediately.
 
 * [Set up git](./git.md)
 * [Create a debian package](./deb-pack.md)
 * [Create a package for launchpad](./ppa-pack.md)
+* [Local debian repository](./local-repo.md)
 
 
 ## License
 
-Copyright (C) 2016-2017 Abdelkrime Aries
+Copyright (C) 2016-2018 Abdelkrime Aries
 
 The content is licensed under
 [Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/)
