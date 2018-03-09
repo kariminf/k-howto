@@ -7,7 +7,7 @@ For the sake of the tutorial, we suppose the project's name is *mypack* and its 
 
 ## Install needed packages
 
-```
+```sh
 sudo apt-get install dh-make devscripts
 ```
 
@@ -15,13 +15,13 @@ sudo apt-get install dh-make devscripts
 
 In a folder, say "release", create a folder named by your project's name followed by a hyphen (-), then the version.
 
-```
+```sh
 mkdir mypack-1.0.1
 cd mypack-1.0.1/
 ```
 Then call this instruction:
 
-```
+```sh
 dh_make --createorig
 ```
 
@@ -39,7 +39,7 @@ This will create a file `mypack_1.0.1.orig.tar.xz` in the folder "release" (the 
 Also, a folder *debian* with a lot of files (most of them I delete; I don't even know what they are for).
 Add a file named *install* to specify where each file must be installed in the system (you must be familiar with Linux file system).
 
-```
+```sh
 cd debian
 rm *.ex README* *.EX *.docs
 touch install
@@ -59,7 +59,7 @@ Make sure:
 
 Return to *mypack-1.0.1* folder
 
-```
+```sh
 cd ..
 ```
 
@@ -67,7 +67,7 @@ To upload your package on Launchpad, please refer to [Launchpad packaging tutori
 
 If you want to generate .deb file locally (on your machine), then simply type:
 
-```
+```sh
 debuild
 ```
 If you set up your gpg signature properly, you will be asked to afford your passkey
